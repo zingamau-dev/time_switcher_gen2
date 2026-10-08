@@ -1,0 +1,19 @@
+{
+  "id": "time_switcher_gen2",
+  "name": "Time Switcher",
+  "version": "1.0.0",
+  "api": 2,
+  "games": [
+    "gen2"
+  ],
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "TOOL",
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Adds a TIME option to the START menu that opens a sub-menu to manually switch the time of day (Morning, Day, Night, or Auto) for wild encounters.",
+  "github": "zingamau-dev/time_switcher_gen2"
+}

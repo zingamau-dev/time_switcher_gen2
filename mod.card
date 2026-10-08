@@ -1,0 +1,17 @@
+-- Sharing metadata: read by tooling and the manager detail pane.
+return {
+  summary = "Manually change the time of day directly from a START sub-menu.",
+  author = "zingamau-dev",
+  support = "https://github.com/zingamau-dev/time_switcher_gen2",
+  tags = { "tool", "utility", "time", "quality-of-life" },
+  compat = { modApi = 2, games = { "gen2" } },
+  differences = {
+    added = {
+      "Added a TIME option to the START menu that opens a sub-menu to select AUTO, MORN, DAY, or NITE"
+    },
+    changed = {
+      "Overrides the engine's time of day when a manual option is selected, updating lighting and encounters instantly"
+    },
+    known = {}
+  }
+}
